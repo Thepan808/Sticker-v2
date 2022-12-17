@@ -48,51 +48,51 @@ class Strings:
                                             "(não deve exceder 64 caracteres).\n"
                                             "Use /cancel para cancelar")
 
-    PACK_TITLE_TOO_LONG = "I'm sorry, the title must be at max 64 characters long. Try with another title"
+    PACK_TITLE_TOO_LONG = "Sinto muito, o título deve estar no máximo 64 caracteres. Tente com outro título"
 
-    PACK_TITLE_CONTAINS_NEWLINES = "I'm sorry, the title must be a single line (no newline characters)"
+    PACK_TITLE_CONTAINS_NEWLINES = "Sinto muito, o título deve ser uma única linha (sem caracteres de nova linha)"
 
-    PACK_TITLE_INVALID_MESSAGE = ("Oh no! This is not what I was waiting for! Please send me the "
-                                  "pack title, or /cancel")
+    PACK_TITLE_INVALID_MESSAGE = ("Ah, não! Não era isso que eu estava esperando! Por favor, envie-me o "
+                                  "título do pacote, ou /cancel")
 
-    PACK_CREATION_WAITING_NAME = ("Good, this is going to be the pack title: <i>{}</i>\n"
+    PACK_CREATION_WAITING_NAME = ("Bom, este vai ser o título do pacote: <i>{}</i>\n"
                                   "\n"
-                                  "Please send me what will be the pack link (must be at max {} characters long. "
-                                  "<b>Doesn't</b> need to include <code>https://t.me/addstickers/</code>)")
+                                  "Por favor, envie-me o que será o link do pacote (deve estar no máximo {} Caracteres Longas. "
+                                  "<b>Não</b> necessidade de incluir <code>https://t.me/addstickers/</code>)")
 
-    PACK_NAME_TOO_LONG = "I'm sorry, this link is too long ({}/{}). Try again with another link"
+    PACK_NAME_TOO_LONG = "Sinto muito, este link é muito longo ({}/{}). Tente novamente com outro link"
 
-    PACK_NAME_INVALID = ("<b>Invalid link</b>. A link must:\n"
-                         "• start with a letter\n"
-                         "• consist exclusively of letters, digits or underscores\n"
-                         "• not contain two consecutive underscores\n"
-                         "• not end with an underscore\n"
+    PACK_NAME_INVALID = ("<b>Link inválido</b>. Um link deve:\n"
+                         "• comece com uma letra\n"
+                         "• consistem exclusivamente em letras, dígitos ou sublinhados\n"
+                         "• não contêm dois sublinhados consecutivos\n"
+                         "• não terminar com um sublinhado\n"
                          "\n"
-                         "Please try again")
+                         "Tente novamente")
 
-    PACK_NAME_INVALID_MESSAGE = ("Oh no! This is not what I was waiting for! Please send me the "
-                                 "pack link, or /cancel")
+    PACK_NAME_INVALID_MESSAGE = ("Ah, não! Não era isso que eu estava esperando! Por favor, envie-me o "
+                                 "link do pacote, ou /cancel")
 
-    PACK_NAME_DUPLICATE = "I'm sorry, you already have a pack with this link saved. try with another link"
+    PACK_NAME_DUPLICATE = "Sinto muito, você já tem um pacote com este link salvo. tente com outro link"
 
-    PACK_TYPE_BUTTONS_EXPIRED = "These buttons are no longer valid"
+    PACK_TYPE_BUTTONS_EXPIRED = "Esses botões não são mais válidos"
 
-    PACK_TYPE_CHANGED = "Pack type: {}. Now send me the pack title!"
+    PACK_TYPE_CHANGED = "Tipo de pack: {}. Agora envie-me o título do pacote!"
 
-    PACK_CREATION_WAITING_FIRST_STATIC_STICKER = ("Got it, we are almost done. Now send me the first stickers "
-                                                  "of the pack (or a png file, or the emojis to use for the stickers)")
+    PACK_CREATION_WAITING_FIRST_STATIC_STICKER = ("Entendi, estamos quase prontos. Agora me envie os primeiros adesivos "
+                                                  "da embalagem (ou um arquivo PNG, ou os emojis a serem usados para os adesivos)")
 
-    PACK_CREATION_WAITING_FIRST_ANIMATED_STICKER = ("Got it, we are almost done. Now send me the first animated "
-                                                    "stickers of the pack (or the emojis to use for the stickers)")
+    PACK_CREATION_WAITING_FIRST_ANIMATED_STICKER = ("Entendi, estamos quase prontos. Agora envie-me a primeira animação "
+                                                    "adesivos do pack (ou os emojis para usar para os adesivos)")
 
-    PACK_CREATION_WAITING_FIRST_VIDEO_STICKER = ("Got it, we are almost done. Now send me the first video "
-                                                    "stickers of the pack (or the emojis to use for the stickers)")
+    PACK_CREATION_WAITING_FIRST_VIDEO_STICKER = ("Entendi, estamos quase prontos. Agora me envie o primeiro vídeo "
+                                                    "vídeo ao pack (ou os emojis a serem usados para os adesivos)")
 
-    PACK_CREATION_FIRST_STICKER_PACK_DATA_MISSING = ("Ooops, something went wrong.\n"
-                                                     "Please repeat the creation process with /create")
+    PACK_CREATION_FIRST_STICKER_PACK_DATA_MISSING = ("Ooops, algo deu errado.\n"
+                                                     "Repita o processo de criação com /create")
 
-    PACK_CREATION_WAITING_FIRST_STICKER_INVALID_MESSAGE = ("Uhmm 🤔 I was waiting for the first stickers of the pack. "
-                                                           "Please send me a stickers, or /cancel")
+    PACK_CREATION_WAITING_FIRST_STICKER_INVALID_MESSAGE = ("Uhmm 🤔 Eu estava esperando os primeiros adesivos do pacote. "
+                                                           "Por favor, envie-me um adesivo, ou /cancel")
 
     PACK_CREATION_ERROR_DUPLICATE_NAME = ("I'm sorry, there's already a pack with <a href=\"{}\">this link</a>.\n"
                                           "Please send me a new link, or /cancel")
