@@ -292,9 +292,9 @@ class Strings:
                                   "<code>/tofile</code> to convert an animated/static sticker to a " \
                                   "cutom emoji-ready file. Use /done when you're done with this command"
 
-    EMOJI_TO_FILE_VIDEO_NOT_SUPPORTED = "Video stickers are not supported 😔"
+    EMOJI_TO_FILE_VIDEO_NOT_SUPPORTED = "Adesivos de vídeo não são suportados 😔"
 
-    EMOJI_TO_FILE_TOO_MANY_ENTITIES = "Please send just one custom emoji"
+    EMOJI_TO_FILE_TOO_MANY_ENTITIES = "Por favor, envie apenas um emoji personalizado"
 
     TO_FILE_WAITING_STICKER = "Por favor, envie os adesivos (estático/vídeo) ou o emoji personalizado para o qual você deseja converter " \
                               "arquivo ou /cancel"
