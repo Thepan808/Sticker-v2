@@ -17,22 +17,22 @@ logger = logging.getLogger(__name__)
 
 class StickersBot(Updater):
     USERS_COMMANDS = [
-        BotCommand('create', 'create a new stickers pack'),
-        BotCommand('add', 'add stickers to an existing pack'),
-        BotCommand('remove', 'remove stickers from their pack'),
-        BotCommand('list', 'list your packs'),
-        BotCommand('cleanup', 'remove from the database packs deleted from @stickers'),
-        BotCommand('forgetme', 'delete yourself from the database'),
-        BotCommand('export', 'export a pack to a zip file'),
-        BotCommand('readd', 'save a pack created by the bot'),
-        BotCommand('tofile', 'convert stickers and custom emojis to file'),
-        BotCommand('toemoji', 'resize a stickers so it can be used as emoji'),
-        BotCommand('done', 'exit from the current operation'),
-        BotCommand('cancel', 'cancel the current operation'),
+        BotCommand('create', 'criar um novo pacote de adesivos'),
+        BotCommand('add', 'adicionar adesivos a um pack existente'),
+        BotCommand('remove', 'remover adesivo de seu pack'),
+        BotCommand('list', 'liste seus pacotes'),
+        BotCommand('cleanup', 'remover dos pacotes de banco de dados excluídos de @stickers'),
+        BotCommand('forgetme', 'excluir-se do banco de dados'),
+        BotCommand('export', 'exportar um pacote para um arquivo zip'),
+        BotCommand('readd', 'salvar um pacote criado pelo bot'),
+        BotCommand('tofile', 'converter adesivos e emojis personalizados para arquivo'),
+        BotCommand('toemoji', 'redimensionar um adesivo para que ele possa ser usado como emoji'),
+        BotCommand('done', 'emojis da operação atual'),
+        BotCommand('cancel', 'cancelar a operação atual'),
     ]
 
     ADMINS_COMMANDS = [
-        BotCommand('count', 'see the size of your packs'),  # still "experimental"
+        BotCommand('count', 'veja o tamanho de seus pack'),  # still "experimental"
     ]
 
     @staticmethod
