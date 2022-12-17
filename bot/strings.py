@@ -233,64 +233,64 @@ class Strings:
                                   "You can only add packs that were created by me.\n\n" \
                                   "Try with another pack, or /cancel"
 
-    READD_SAVED = "{} successfully saved to your packs!"
+    READD_SAVED = "{} salvo com sucesso em seus pacotes!"
 
-    READD_DUMMY_STICKER_NOT_REMOVED = "Anyway, to check whether I owned this pack or not, " \
-                                      "I had to add a dummy stickers to the pack, which I haven't been able to remove. " \
-                                      "You can remove it manually using the /remove command"
+    READD_DUMMY_STICKER_NOT_REMOVED = "Enfim, para verificar se eu possuía esse pacote ou não, " \
+                                      "Eu tive que adicionar um adesivo fictício ao pacote, que eu não consegui remover. " \
+                                      "Você pode removê-lo manualmente usando o botão /remove comando"
 
-    READD_DUMMY_STICKER_NOT_REMOVED_UNKNOWN = "Anyway, to check whether I owned this pack or not, " \
-                                              "I had to add a dummy stickers to the pack, " \
-                                              "which I haven't been able to remove (<code>{}</code>). " \
-                                              "You can remove it manually using the /remove command"
+    READD_DUMMY_STICKER_NOT_REMOVED_UNKNOWN = "Enfim, para verificar se eu possuía esse pacote ou não, " \
+                                              "Eu tive que adicionar um adesivo fictício ao pacote, " \
+                                              "que eu não consegui remover (<code>{}</code>). " \
+                                              "Você pode removê-lo manualmente usando o botão /remove comando"
 
-    FORGETME_SUCCESS = "Success, I've deleted all of your packs from my database"
+    FORGETME_SUCCESS = "Sucesso, eu apaguei todos os seus pacotes do meu banco de dados"
 
-    CANCEL = "Good, we're done with that"
+    CANCEL = "Bom, nós terminamos com isso"
 
-    CANCEL_NO_CONVERSATION = "There is no operation going on 😴"
+    CANCEL_NO_CONVERSATION = "Não há nenhuma operação em andamento 😴"
 
-    TIMEOUT = "😴 It looks like you are inactive, I've canceled the current operation"
+    TIMEOUT = "😴 Parece que você está inativo, eu cancelei a operação atual"
 
-    LIST_NO_PACKS = "You don't have any pack. Use /create to create one"
+    LIST_NO_PACKS = "Você não tem nenhum pacote. Use /create para criar um pack"
 
-    LIST_FOOTER = "\n\n<b>s</b>: static\n<b>a</b>: animated\n<b>v</b>: video"
+    LIST_FOOTER = "\n\n<b>s</b>: estático\n<b>a</b>: animado\n<b>v</b>: video"
 
-    ANIMATED_STICKERS_NO_FILE = "Unfortunately I can't send you animated stickers back as file :("
+    ANIMATED_STICKERS_NO_FILE = "Infelizmente eu não posso enviar-lhe adesivos animados de volta como arquivo :("
 
-    EXPORT_PACK_SELECT = "Please send me a sticker from the pack you want to export, or /cancel"
+    EXPORT_PACK_SELECT = "Por favor, envie-me um adesivo do pacote que você deseja exportar, ou /cancel"
 
-    EXPORT_PACK_NO_PACK = "This stickers doesn't belong to any pack. Please send me a stciker from a pack, or /cancel"
+    EXPORT_PACK_NO_PACK = "Este adesivo não pertence a nenhum pacote. Por favor, envie-me um sticker de um pacote, ou /cancel"
 
-    EXPORT_PACK_START = "Exporting stickers from <i>{}</i>... it may take some minutes. Please hold on"
+    EXPORT_PACK_START = "Exportação de adesivos de <i>{}</i>... pode levar alguns minutos. Por favor, aguarde"
 
-    EXPORT_PACK_UPLOADING = "Zipping png files and uploading..."
+    EXPORT_PACK_UPLOADING = "Compactando arquivos png e carregando..."
 
-    EXPORT_ANIMATED_STICKERS_NOT_SUPPORTED = "Exporting animated packs is not supported yet"
+    EXPORT_ANIMATED_STICKERS_NOT_SUPPORTED = "A exportação de pacotes animados ainda não é suportada"
 
-    EXPORT_SKIPPED_STICKERS = " - I wasn't able to export {} stickers!"
+    EXPORT_SKIPPED_STICKERS = " - Não consegui exportar {} stickers!"
 
-    EXPORT_ONGOING = "Hold on, the export is processing..."
+    EXPORT_ONGOING = "Espere, a exportação está sendo processada..."
 
-    CLEANUP_NO_PACK = ("It looks like all your packs are still there. No pack has been removed from the database.\n"
-                       "If you just deleted a pack from @stickers, remember that it might take some time for bots "
-                       "to be made aware of its deletion.\n\n"
-                       "You can use /list to see the list of your packs")
+    CLEANUP_NO_PACK = ("Parece que todos os seus pacotes ainda estão lá. Nenhum pacote foi removido do banco de dados.\n"
+                       "Se você acabou de excluir um pacote de @stickers, lembre-se de que pode levar algum tempo para os bots "
+                       "ser informado da sua supressão.\n\n"
+                       "Você pode usar /list para ver a lista de seus packs")
 
-    CLEANUP_HEADER = "These are the packs that no longer exist and has been removed from the database:\n"
+    CLEANUP_HEADER = "Estes são os pacotes que não existem mais e foram removido do banco de dados:\n"
 
-    CLEANUP_WAIT = "Hold on, this operation might take some time..."
+    CLEANUP_WAIT = "Espere, esta operação pode levar algum tempo..."
 
     TO_FILE_MIME_TYPE = "mime-type: {}"
 
-    TO_EMOJI_WAITING_STICKER = "Send me a static sticker, " \
-                               "I will send you back a file you can use as custom emoji"
+    TO_EMOJI_WAITING_STICKER = "Envie-me um adesivo estático, " \
+                               "Vou enviar-lhe de volta um arquivo que você pode usar como emoji personalizado"
 
-    TO_EMOJI_UNEXPECTED_MESSAGE = "Please send me a <b>static</b> stickers, or /cancel"
+    TO_EMOJI_UNEXPECTED_MESSAGE = "Por favor, envie-me um <b>estático</b> stickers, ou /cancel"
 
-    TO_EMOJI_NON_STATIC_STICKER = "Animated and video stickers don't need to be resized, you can use " \
-                                  "<code>/tofile</code> to convert an animated/static sticker to a " \
-                                  "cutom emoji-ready file. Use /done when you're done with this command"
+    TO_EMOJI_NON_STATIC_STICKER = "Adesivos animados e de vídeo não precisam ser redimensionados, você pode usar " \
+                                  "<code>/tofile</code> para converter um adesivo animado/estático em um " \
+                                  "arquivo customizado emoji-pronto. Use /done quando terminar de usar este comando"
 
     EMOJI_TO_FILE_VIDEO_NOT_SUPPORTED = "Adesivos de vídeo não são suportados 😔"
 
