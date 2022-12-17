@@ -48,7 +48,7 @@ def on_create_pack_command(update: Update, context: CallbackContext):
 @decorators.failwithmessage
 @decorators.logconversation
 def on_pack_title_receive(update: Update, context: CallbackContext):
-    logger.info('received possible pack title')
+    logger.info('recebeu possível título do pacote')
 
     if len(update.message.text) > 64:
         logger.info('pack title too long: %s', update.message.text)
