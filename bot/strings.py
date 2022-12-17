@@ -296,9 +296,9 @@ class Strings:
 
     EMOJI_TO_FILE_TOO_MANY_ENTITIES = "Please send just one custom emoji"
 
-    TO_FILE_WAITING_STICKER = "Please send the stickers (static/video) or the custom emoji you want to convert to " \
-                              "file, or /cancel"
+    TO_FILE_WAITING_STICKER = "Por favor, envie os adesivos (estático/vídeo) ou o emoji personalizado para o qual você deseja converter " \
+                              "arquivo ou /cancel"
 
-    TO_FILE_UNEXPECTED_MESSAGE = "I wasn't expecting that 🤔 please send a stickers or a custom emoji, or use /cancel"
+    TO_FILE_UNEXPECTED_MESSAGE = "Eu não estava esperando isso 🤔 por favor, envie um adesivo ou um emoji personalizado, ou use /cancel"
 
-    ENABLED_FLAGS = "Enabled flags: "
+    ENABLED_FLAGS = "Sinalizadores habilitados: "
