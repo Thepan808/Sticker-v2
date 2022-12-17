@@ -94,84 +94,84 @@ class Strings:
     PACK_CREATION_WAITING_FIRST_STICKER_INVALID_MESSAGE = ("Uhmm 🤔 Eu estava esperando os primeiros adesivos do pacote. "
                                                            "Por favor, envie-me um adesivo, ou /cancel")
 
-    PACK_CREATION_ERROR_DUPLICATE_NAME = ("I'm sorry, there's already a pack with <a href=\"{}\">this link</a>.\n"
-                                          "Please send me a new link, or /cancel")
+    PACK_CREATION_ERROR_DUPLICATE_NAME = ("Sinto muito, já existe um pacote com <a href=\"{}\">this link</a>.\n"
+                                          "Por favor, envie-me um novo link, ou /cancel")
 
-    PACK_CREATION_ERROR_INVALID_NAME = ("I'm sorry, Telegram rejected the link you provided saying it's not valid.\n"
-                                        "Please send a me new link, or /cancel")
+    PACK_CREATION_ERROR_INVALID_NAME = ("Desculpa, O Telegram rejeitou o link que você forneceu dizendo que não é válido.\n"
+                                        "Por favor, envie-me um novo link, ou /cancel")
 
-    PACK_CREATION_ERROR_GENERIC = ("Error while trying to create the pack: <code>{}</code>.\n"
-                                   "Please try again, or /cancel")
+    PACK_CREATION_ERROR_GENERIC = ("Erro ao tentar criar o pacote: <code>{}</code>.\n"
+                                   "Tente novamente ou /cancel")
 
-    PACK_CREATION_PACK_CREATED = ("Your pack has been created, add it through <a href=\"{}\">this link</a>\n"
-                                  "Continue to send me stickers to add more, or /done")
+    PACK_CREATION_PACK_CREATED = ("Seu pacote foi criado, adicione-o através de <a href=\"{}\">este link</a>\n"
+                                  "Continue a enviar-me autocolantes para adicionar mais, ou /done")
 
-    ADD_STICKER_SELECT_PACK = "Select the pack you want to add stickers to, or /cancel"
+    ADD_STICKER_SELECT_PACK = "Selecione o pacote ao qual você deseja adicionar adesivos, ou /cancel"
 
-    ADD_STICKER_NO_PACKS = "You don't have any pack yet. Use /create to start creating a new pack"
+    ADD_STICKER_NO_PACKS = "Você ainda não tem nenhum pacote. Usa /create para começar a criar um novo pacote"
 
-    ADD_STICKER_SELECTED_TITLE_DOESNT_EXIST = ("It seems like the pack \"{}\" doesn't exist.\n"
-                                               "Please select a valid pack from the keyboard")
+    ADD_STICKER_SELECTED_TITLE_DOESNT_EXIST = ("Parece que o pacote \"{}\" não existe.\n"
+                                               "Selecione um pacote válido no teclado")
 
-    ADD_STICKER_SELECTED_TITLE_MULTIPLE = ("It seems like you have multiple packs that match the title \"{}\".\n"
-                                           "Please select the pack you want to choose from the keyboard below. Packs reference:\n"
+    ADD_STICKER_SELECTED_TITLE_MULTIPLE = ("Parece que você tem vários pacotes que correspondem ao título \"{}\".\n"
+                                           "Por favor, selecione o pacote que você deseja escolher a partir do teclado abaixo. Packs referência:\n"
                                            "• {}")
 
-    ADD_STICKER_PACK_SELECTED_STATIC = ("Good, we are going to add stickers to <a href=\"{}\">this pack</a>.\n"
-                                        "Send me a stickers or a png file, or /cancel")
+    ADD_STICKER_PACK_SELECTED_STATIC = ("Bom, vamos adicionar adesivos para <a href=\"{}\">este pacote</a>.\n"
+                                        "Envie-me um adesivo ou um arquivo PNG, ou /cancel")
 
-    ADD_STICKER_PACK_SELECTED_ANIMATED = ("Good, we are going to add stickers to <a href=\"{}\">this pack</a>.\n"
-                                          "Send me an animated stickers, or /cancel")
+    ADD_STICKER_PACK_SELECTED_ANIMATED = ("Bom, vamos adicionar adesivos para <a href=\"{}\">este pacote</a>.\n"
+                                          "Envie-me um adesivo animado, ou /cancel")
 
-    ADD_STICKER_PACK_SELECTED_VIDEO = ("Good, we are going to add stickers to <a href=\"{}\">this pack</a>.\n"
-                                          "Send me a video stickers or a webp file, or /cancel")
+    ADD_STICKER_PACK_SELECTED_VIDEO = ("Bom, vamos adicionar adesivos para <a href=\"{}\">este pacote</a>.\n"
+                                          "Envie-me um adesivo de vídeo ou um arquivo webp, ou /cancel")
 
-    ADD_STICKER_SELECTED_NAME_DOESNT_EXIST = ("It seems like the pack \"{}\" doesn't exist.\n"
-                                              "Please select a valid pack from the keyboard")
+    ADD_STICKER_SELECTED_NAME_DOESNT_EXIST = ("Parece que o pacote \"{}\" não existe.\n"
+                                              "Selecione um pacote válido no teclado")
 
-    ADD_STICKER_PACK_DATA_MISSING = ("Ooops, something went wrong.\n"
-                                     "Please repeat the process with /add")
+    ADD_STICKER_PACK_DATA_MISSING = ("Ooops, algo deu errado.\n"
+                                     "Repita o processo com /add")
 
-    ADD_STICKER_PACK_NOT_VALID = ("Ooops, it looks like <a href=\"{}\">this pack</a> doesn't exist.\n"
-                                  "Please select another pack")
+    ADD_STICKER_PACK_NOT_VALID = ("Ooops, parece que <a href=\"{}\">este pacote</a> não existe.\n"
+                                  "Selecione outro pacote")
 
-    ADD_STICKER_PACK_NOT_VALID_NO_PACKS = ("Ooops, it looks like <a href=\"{}\">this pack</a> doesn't exist.\n"
-                                           "Please create a new pack with /create")
+    ADD_STICKER_PACK_NOT_VALID_NO_PACKS = ("Ooops, parece que <a href=\"{}\">este pacote</a> não existe.\n"
+                                           "Por favor, crie um novo pacote com /create")
 
-    ADD_STICKER_NO_EMOJI_IN_TEXT = ("Uhm, I don't understand. Send me a stickers, or send me a list of emojis to "
-                                    "use for the next stickers (or /done to exit)")
+    ADD_STICKER_NO_EMOJI_IN_TEXT = ("Uhm, Eu não estou entendendo. Envie-me um adesivo ou envie-me uma lista de emojis para "
+                                    "use para os próximos adesivos (ou /done para sair)")
 
-    ADD_STICKER_TOO_MANY_EMOJIS = "Whoa, that's a lot of emojis! I can only use 10 at max, please try again"
+    ADD_STICKER_TOO_MANY_EMOJIS = "Whoa, isso é um monte de emojis! Eu só posso usar 10 no máximo, por favor, tente novamente"
 
-    ADD_STICKER_EMOJIS_SAVED = "Oh, some emojis! We will use these {} emojis for the next stickers you will send me: {}"
+    ADD_STICKER_EMOJIS_SAVED = "Ah, alguns emojis! Usaremos estes {} emojis para os próximos adesivos que você vai me enviar: {}"
 
-    ADD_STICKER_SUCCESS = ("Sticker added to <a href=\"{}\">this pack</a>. "
-                           "Continue to send me stickers to add more, use /done when you're done")
+    ADD_STICKER_SUCCESS = ("Sticker adicionado a <a href=\"{}\">este pacote</a>. "
+                           "Continue a me enviar adesivos para adicionar mais, use /done quando terminar")
 
-    ADD_STICKER_SUCCESS_EMOJIS = ("Sticker added to <a href=\"{}\">this pack</a> using these emojis: {}\n"
-                                  "Continue to send me stickers to add more, use /done when you're done")
+    ADD_STICKER_SUCCESS_EMOJIS = ("Sticker adicionado a <a href=\"{}\">este pacote</a> usando esses emojis: {}\n"
+                                  "Continue a me enviar adesivos para adicionar mais, use /done quando terminar")
 
-    ADD_STICKER_PACK_FULL = ("I'm sorry, <a href=\"{}\">this pack</a> is full ({} stickers), "
-                             "you can no longer add stickers to it. Use /remove to remove some stickers\n"
-                             "You've exited the \"adding stickers\" mode")
+    ADD_STICKER_PACK_FULL = ("Desculpa, <a href=\"{}\">este pacote</a> está cheio ({} stickers), "
+                             "você não pode mais adicionar adesivos a ele. Use /remove para remover alguns adesivos\n"
+                             "Você saiu do \"adding stickers\" mode")
 
-    ADD_STICKER_SIZE_ERROR = ("Whoops, it looks like an error happened while resizing the stickers. "
-                              "I can't add this stickers to the pack due to wrong resizing logic.\n"
-                              "Send me another stickers, or use /done when you're done")
+    ADD_STICKER_SIZE_ERROR = ("Whoops, parece que um erro aconteceu ao redimensionar os adesivos. "
+                              "Eu não posso adicionar este adesivos para o pacote devido à lógica de redimensionamento errada.\n"
+                              "Envie-me outros adesivos ou use /done quando terminar")
 
-    ADD_STICKER_INVALID_ANIMATED = ("It looks like this stickers is no loger compliant with the most recent "
-                                    "<a href=\"https://core.telegram.org/animated_stickers\">Telegram guidelines</a> "
-                                    "about animated stickers. I'm sorry but I can't add it :(\n"
-                                    "You can try to send the stickers again or "
-                                    "send another animated stickers (or /cancel)")
+    ADD_STICKER_INVALID_ANIMATED = ("Parece que este adesivos não é compatível com o mais recente "
+                                    "<a href=\"https://core.telegram.org/animated_stickers\">Telegram Diretrizes</a> "
+                                    "sobre adesivos animados. Sinto muito, mas não posso adicioná-lo :(\n"
+                                    "Você pode tentar enviar os adesivos novamente ou "
+                                    "enviar outro adesivo animado (ou /cancel)")
 
-    ADD_STICKER_FLOOD_EXCEPTION = ("Uh-oh, it looks like I'm quite busy right now. I cannot create the pack, or "
-                                   "you've been creating too many packs lately. "
-                                   "Please try again in: {} hours")
+    ADD_STICKER_FLOOD_EXCEPTION = ("Uh-oh, parece que estou bastante ocupado agora. Não consigo criar o pacote, ou "
+                                   "você tem criado muitos pacotes ultimamente. "
+                                   "Tente novamente em: {} Horas")
 
-    ADD_STICKER_GENERIC_ERROR = ("An error occurred while adding this stickers to <a href=\"{}\">this pack</a>: "
+    ADD_STICKER_GENERIC_ERROR = ("Ocorreu um erro ao adicionar este autocolante a <a href=\"{}\">este pacote</a>: "
                                  "<code>{}</code>.\n"
-                                 "Try again, send me another stickers or use /done when you're done")
+                                 "Tente novamente, envie-me outros adesivos ou use /done quando terminar")
 
     ADD_STICKER_ANIMATED_UNSUPPORTED = ("I am sorry, I do not support animated stickers yet :(\n"
                                         "Please send a static stickers")
