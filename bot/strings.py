@@ -38,7 +38,7 @@ class Strings:
                     "mas algo forçado por Telegram\n"
                     "\n"
                     "<b>Maneira correta de construir seu próprio pacote personalizado</b>\n"
-                    "Use @. Também rouba adesivos como eu. É muito rápido também. Realmente sugerido")
+                    "Use @fStikBot. Também rouba adesivos como eu. É muito rápido também. Realmente sugerido")
 
     PACK_CREATION_WAITING_TITLE = ("Tudo bem, um novo pacote de adesivos! Selecione o tipo de pacote com os botões abaixo "
                                    "e <b>envie-me o título do pacote</b> (não deve exceder 64 caracteres).\n\n"
