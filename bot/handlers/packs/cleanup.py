@@ -40,7 +40,7 @@ def on_cleanup_command(update: Update, context: CallbackContext):
             context.bot.get_sticker_set(name=pack[1])
         except TelegramError as telegram_error:
             if telegram_error.message == 'Stickerset_invalid':
-                logger.debug('this pack will be removed from the db (%s)', telegram_error.message)
+                logger.debug('este pacote será removido do db (%s)', telegram_error.message)
                 packs_to_delete.append(pack)  # list of packs we will have to delete
             else:
                 logger.debug('api exception: %s', telegram_error.message)
@@ -51,7 +51,7 @@ def on_cleanup_command(update: Update, context: CallbackContext):
 
     with session_scope() as session:
         for _, pack_name, _ in packs_to_delete:
-            logger.info('deleting pack from db...')
+            logger.info('excluindo o pacote do db...')
             session.query(Pack).filter(Pack.user_id==update.effective_user.id, Pack.name==pack_name).delete()
 
         logger.info('done')
