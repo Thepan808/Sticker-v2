@@ -27,12 +27,12 @@ class StickersBot(Updater):
         BotCommand('readd', 'salvar um pacote criado pelo bot'),
         BotCommand('tofile', 'converter adesivos e emojis personalizados para arquivo'),
         BotCommand('toemoji', 'redimensionar um adesivo para que ele possa ser usado como emoji'),
-        BotCommand('done', 'emojis da operação atual'),
+        BotCommand('done', 'terminar a operação atual'),
         BotCommand('cancel', 'cancelar a operação atual'),
     ]
 
     ADMINS_COMMANDS = [
-        BotCommand('count', 'veja o tamanho de seus pack'),  # still "experimental"
+        BotCommand('count', 'veja a numeração entre seus pack'),  # still "experimental"
     ]
 
     @staticmethod
