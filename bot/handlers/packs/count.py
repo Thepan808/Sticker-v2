@@ -29,7 +29,7 @@ def on_count_command(update: Update, context: CallbackContext):
         update.message.reply_text(Strings.LIST_NO_PACKS)
         return
 
-    update.message.reply_html("Hold on, this might take some time...")
+    update.message.reply_html("Espere, isso pode levar algum tempo...")
 
     results_list = []
     for pack in packs:
