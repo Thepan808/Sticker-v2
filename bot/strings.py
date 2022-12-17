@@ -173,65 +173,65 @@ class Strings:
                                  "<code>{}</code>.\n"
                                  "Tente novamente, envie-me outros adesivos ou use /done quando terminar")
 
-    ADD_STICKER_ANIMATED_UNSUPPORTED = ("I am sorry, I do not support animated stickers yet :(\n"
-                                        "Please send a static stickers")
+    ADD_STICKER_ANIMATED_UNSUPPORTED = ("Lamento, ainda não apoio autocolantes animados :(\n"
+                                        "Por favor, envie um adesivo estático")
 
-    ADD_STICKER_EXPECTING_DIFFERENT_TYPE = ("Uh-oh. I was waiting for a {} stickers, not a {} one. "
-                                            "Please send me a new stickers, or /cancel")
+    ADD_STICKER_EXPECTING_DIFFERENT_TYPE = ("Uh-oh. Eu estava esperando por um {} stickers, não é um {} Um. "
+                                            "Por favor, envie-me um novo adesivo, ou /cancel")
 
-    ADD_STICKER_INVALID_MESSAGE = "Uhmm 🤔 I was waiting for the stickers to add. Send me a stickers, or /cancel"
+    ADD_STICKER_INVALID_MESSAGE = "Uhmm 🤔 Eu estava esperando os adesivos para adicionar. Envie-me um adesivo, ou /cancel"
 
-    REMOVE_STICKER_SELECT_STICKER = "Send me the stickers you want to remove from its pack, or /cancel"
+    REMOVE_STICKER_SELECT_STICKER = "Envie-me os adesivos que você deseja remover de seu pack, ou /cancel"
 
-    REMOVE_INVALID_MESSAGE = "Please send the stickers you want to remove from its pack, or /cancel"
+    REMOVE_INVALID_MESSAGE = "Por favor, envie os adesivos que você deseja remover de seu pacote, ou /cancel"
 
-    REMOVE_STICKER_SUCCESS = ("Sticker removed from <a href=\"{}\">its pack</a>.\n"
-                              "Send me another stickers to remove, or /done when you're done")
+    REMOVE_STICKER_SUCCESS = ("Sticker removido de <a href=\"{}\">seu pack</a>.\n"
+                              "Envie-me outros adesivos para remover, ou /done quando terminar")
 
-    REMOVE_STICKER_FOREIGN_PACK = ("This stickers is from a <a href=\"{}\">pack</a> you didn't create through me. "
-                                   "Try with a valid stickers, or /done")
+    REMOVE_STICKER_FOREIGN_PACK = ("Este adesivo é de um <a href=\"{}\">pack</a> você não criou através de mim. "
+                                   "Tente com um adesivo válido, ou /done")
 
-    REMOVE_STICKER_ALREADY_DELETED = ("This stickers is no longer part of <a href=\"{}\">the pack</a>, "
-                                      "try with another stickers, or /done")
+    REMOVE_STICKER_ALREADY_DELETED = ("Este adesivo não faz mais parte do <a href=\"{}\">o pack</a>, "
+                                      "tente com outros adesivos, ou /done")
 
     REMOVE_STICKER_GENERIC_ERROR = (
-        "An error occurred while removing this stickers from <a href=\"{}\">this pack</a>: "
+        "Ocorreu um erro ao remover este adesivo de <a href=\"{}\">este pacote</a>: "
         "<code>{}</code>.\n"
-        "Try again, send me another stickers or use /done when you're done")
+        "Tente novamente, envie-me outros adesivos ou use /done quando terminar")
 
-    READD_WAITING_STICKER = "Please send me a stickers from the pack you " \
-                                         "want to save among the packs I manage.\n" \
-                                         "Please remember that the pack must have been created by me. " \
-                                         "Use /cancel to cancel"
+    READD_WAITING_STICKER = "Por favor, envie-me um adesivo do pacote que você " \
+                                         "quero salvar entre os pacotes que eu gerencio.\n" \
+                                         "Por favor, lembre-se que o pacote deve ter sido criado por mim. " \
+                                         "Use /cancel para cancelar"
 
-    READD_STICKER_NO_PACK = "This stickers does not belong to a pack. Please try with another pack, or /cancel"
+    READD_STICKER_NO_PACK = "Este adesivo não pertence a um pacote. Por favor, tente com outro pacote, ou /cancel"
 
-    READD_STICKER_ANIMATED = "This only works with static (non-animated) stickers packs. Please try with another pack, or /cancel"
+    READD_STICKER_ANIMATED = "Isso só funciona com pacotes de adesivos estáticos (não animados). Por favor, tente com outro pacote, ou /cancel"
 
-    READD_UNEXPECTED_MESSAGE = "Uuh, I don't understand what you're trying to say.\n" \
-                               "Please send me the pack name/link of the pack to add (or send me a stickers from the pack), or /cancel"
+    READD_UNEXPECTED_MESSAGE = "Uuh, Eu não entendo o que você está tentando dizer.\n" \
+                               "Por favor, envie-me o nome do pacote / link do pacote para adicionar (ou envie-me um adesivo do pacote), ou /cancel"
 
-    READD_WRONG_PACK_NAME = "I'm sorry, it looks like <a href=\"{}\">this pack</a>'s name doesn't end by \"<code>{}</code>\", " \
-                            "therefore I don't own it: you can only add the packs I created. Try with another pack, or /cancel"
+    READD_WRONG_PACK_NAME = "Sinto muito, parece que <a href=\"{}\">este pacote</a>'s name não termina por \"<code>{}</code>\", " \
+                            "portanto, eu não o possuo: você só pode adicionar os pacotes que eu criei. Tente com outro pacote, ou /cancel"
 
-    READD_INVALID_PACK_NAME_PATTERN = "I'm sorry, it looks like this name is not a valid pack name. " \
-                                      "A stickers's pack name is what comes after its share link " \
+    READD_INVALID_PACK_NAME_PATTERN = "Sinto muito, parece que este nome não é um nome de pacote válido. " \
+                                      "O nome de um pacote de adesivos é o que vem depois de seu link de compartilhamento " \
                                       "(<code>https://t.me/addstickers/</code> link).\n\n" \
-                                      "Try again with another name/link, or send me a stickers from the pack, " \
-                                      "or /cancel"
+                                      "Tente novamente com outro nome/link, ou envie-me um adesivo para o pack, " \
+                                      "ou /cancel"
 
-    READD_PACK_EXISTS = "It looks like <a href=\"{}\">this pack</a> is already saved in your packs. " \
-                            "Try with another pack, or /cancel"
+    READD_PACK_EXISTS = "Parece que <a href=\"{}\">este pacote</a> já está salvo em seus pacotes. " \
+                            "Tente com outro pacote, ou /cancel"
 
-    READD_PACK_INVALID = "I'm sorry, it looks like you didn't create <a href=\"{}\">this pack</a> with me " \
-                                  "(or it doesn't exists). " \
-                                  "You can only add packs that were created by me.\n\n" \
-                                  "Try with another pack, or /cancel"
+    READD_PACK_INVALID = "Sinto muito, parece que você não criou <a href=\"{}\">este pacote</a> comigo " \
+                                  "(ou não existe). " \
+                                  "Você só pode adicionar pacotes que foram criados por mim.\n\n" \
+                                  "Tente com outro pacote, ou /cancel"
 
-    READD_UNKNOWN_API_EXCEPTION = "I'm sorry, it looks like you didn't create <a href=\"{}\">this pack</a> with me, " \
-                                  "or it doesn't exists (error: <code>{}</code>). " \
-                                  "You can only add packs that were created by me.\n\n" \
-                                  "Try with another pack, or /cancel"
+    READD_UNKNOWN_API_EXCEPTION = "Sinto muito, parece que você não criou <a href=\"{}\">este pacote</a> comigo, " \
+                                  "ou não existe (error: <code>{}</code>). " \
+                                  "Você só pode adicionar pacotes que foram criados por mim.\n\n" \
+                                  "Tente com outro pacote, ou /cancel"
 
     READD_SAVED = "{} salvo com sucesso em seus pacotes!"
 
