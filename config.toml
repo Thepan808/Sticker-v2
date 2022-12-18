@@ -2,7 +2,7 @@
 token = "5840251998:AAEQ5ufHmLxcMqKCSBV847bknAl2qa2PzLs"
 workers = 1
 admins = [737737727]
-admins_only = true
+admins_only = false
 maintenance_mode = false
 persistent_temp_data = true
 
@@ -17,4 +17,4 @@ filename = "stickersbot.sqlite"
 [bot]
 sourcecode = ""
 issues = ""
-channel = ""
+channel = "botssaved"
