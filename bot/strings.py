@@ -37,8 +37,8 @@ class Strings:
                     "Todos os pacotes que você cria comigo têm seus links terminando por \"_by_{}\". Isso não é feito de propósito, "
                     "mas algo forçado por Telegram\n"
                     "\n"
-                    "<b>Maneira correta de construir seu próprio pacote personalizado</b>\n"
-                    "Use @fStikBot. Também rouba adesivos como eu. É muito rápido também. Realmente sugerido")
+                    "<b>Maneira correta de construir seu próprio pacote personalizado para pack de stickers</b>\n"
+                    "Use @Stickerdownloadbot. Converte o gif ou vídeo, e envia pra mim. É muito rápido de fazer! Realmente recomendo")
 
     PACK_CREATION_WAITING_TITLE = ("Tudo bem, um novo pacote de adesivos! Selecione o tipo de pacote com os botões abaixo "
                                    "e <b>envie-me o título do pacote</b> (não deve exceder 64 caracteres).\n\n"
