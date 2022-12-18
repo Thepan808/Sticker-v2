@@ -38,7 +38,7 @@ class Strings:
                     "mas algo forçado por Telegram\n"
                     "\n"
                     "<b>Maneira correta de construir seu próprio pacote personalizado para pack de stickers</b>\n"
-                    "Use @Stickerdownloadbot. Para concerter o gif ou vídeo ou imagem se não for PNG, e envia pra mim. É muito rápido de fazer! Realmente recomendo")
+                    "Use @Stickerdownloadbot. Para converter o gif ou vídeo ou imagem se não for PNG, e envia pra mim. É muito rápido de fazer! Realmente recomendo")
 
     PACK_CREATION_WAITING_TITLE = ("Tudo bem, um novo pacote de adesivos! Selecione o tipo de pacote com os botões abaixo "
                                    "e <b>envie-me o título do pacote</b> (não deve exceder 64 caracteres).\n\n"
