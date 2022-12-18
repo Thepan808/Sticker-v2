@@ -21,7 +21,7 @@ class MessageScaffold:
 
 
 class StickerFile:
-    DEFAULT_EMOJI = '🧛'
+    DEFAULT_EMOJI = '👑'
 
     def __init__(self, message: Union[Message, MessageScaffold], emojis: Optional[list] = None, tempfile_to_use: Optional[tempfile.TemporaryFile] = None):
         self.type = None
