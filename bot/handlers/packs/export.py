@@ -53,7 +53,7 @@ def on_export_command(update: Update, _):
 @decorators.failwithmessage
 @decorators.logconversation
 def on_sticker_receive(update: Update, context: CallbackContext):
-    logger.info('user sent a stciker from the pack to export')
+    logger.info('usuário enviou um sticker do pacote para exportar')
 
     if not update.message.sticker.set_name:
         update.message.reply_text(Strings.EXPORT_PACK_NO_PACK)
@@ -87,7 +87,7 @@ def on_sticker_receive(update: Update, context: CallbackContext):
                         sticker_file.download()
                         pack_emojis[sticker.file_id] = sticker_file.emojis
                     except Exception:
-                        logger.info('error while downloading and converting a stickers we need to export', exc_info=True)
+                        logger.info('erro ao baixar e converter um adesivo que precisamos exportar', exc_info=True)
                         sticker_file.close()
                         skipped_stickers += 1
                         continue
@@ -106,14 +106,14 @@ def on_sticker_receive(update: Update, context: CallbackContext):
                             )
                             time.sleep(1)  # we do not want to get rate-limited
                         except (TelegramError, BadRequest) as e:
-                            logger.warning('error while editing progress message: %s', e.message)
+                            logger.warning('erro ao editar a mensagem de progresso: %s', e.message)
 
                 stickers_emojis_dict = pack_emojis
                 if config.pyrogram.enabled:
                     try:
                         stickers_emojis_dict = get_set_emojis_dict(update.message.sticker.set_name)
                     except Exception as e:
-                        logger.error('error while trying to get the pack emojis with pyrogram: %s', str(e), exc_info=True)
+                        logger.error('erro ao tentar obter os emojis do pacote com pirograma: %s', str(e), exc_info=True)
 
                 with tempfile.SpooledTemporaryFile() as tmp_json:
                     tmp_json.write(json.dumps(stickers_emojis_dict, indent=2).encode())
@@ -143,7 +143,7 @@ def on_sticker_receive(update: Update, context: CallbackContext):
 @decorators.failwithmessage
 @decorators.logconversation
 def on_animated_sticker_receive(update: Update, _):
-    logger.info('user sent an animated stickers')
+    logger.info('usuário enviou um adesivos animados')
 
     update.message.reply_text(Strings.EXPORT_ANIMATED_STICKERS_NOT_SUPPORTED)
 
