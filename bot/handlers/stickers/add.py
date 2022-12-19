@@ -60,7 +60,7 @@ def get_add_stickers_string(pack_type):
 @decorators.failwithmessage
 @decorators.logconversation
 def on_pack_title(update: Update, context: CallbackContext):
-    logger.info('user selected the pack title from the keyboard')
+    logger.info('usuário selecionou o título do pacote no teclado')
 
     selected_title = update.message.text
     user_id = update.effective_user.id
