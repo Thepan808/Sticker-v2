@@ -1,11 +1,11 @@
 class Strings:
     START_MESSAGE = ("Oi,\n"
-                     "Você pode me usar para criar pacotes de adesivos personalizados usando adesivos existentes ou arquivos PNG.\n"
+                     "Você pode me usar para criar pacotes de adesivos personalizados usando adesivos existentes ou arquivos PNG, converte tuas imagens aqui @Convert_sticker_xyzbot para PNG.\n"
                      "\n"
                      "Comandos principais:\n"
                      "/create para criar um novo pacote\n"
                      "/add para adicionar adesivos a um pack existente\n"
-                     "/help para mais comandos\n")
+                     "/help para mais comandos dos bots que converte\n")
 
     HELP_MESSAGE = ("<b>Lista completa de comandos</b>:\n"
                     "- /create: criar um novo pacote (pacotes animados são suportados)\n"
@@ -38,7 +38,7 @@ class Strings:
                     "mas algo forçado por Telegram\n"
                     "\n"
                     "<b>Maneira correta de construir seu próprio pacote personalizado para pack de stickers</b>\n"
-                    "Use @Stickerdownloadbot. Para converter o gif ou vídeo ou imagem se não for PNG, e envia pra mim. É muito rápido de fazer! Realmente recomendo")
+                    "Use @Stickerdownloadbot para gif, sticker de vídeo, ou kibe de algum pack. Para converter o gif ou vídeo ou imagem se não for PNG, e envia pra mim. É muito rápido de fazer! @Convert_sticker_xyzbot e esse para imagens, e stickers de animação")
 
     PACK_CREATION_WAITING_TITLE = ("Tudo bem, um novo pacote de adesivos! Selecione o tipo de pacote com os botões abaixo "
                                    "e <b>envie-me o título do pacote</b> (não deve exceder 64 caracteres).\n\n"
