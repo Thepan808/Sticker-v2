@@ -6,10 +6,6 @@ from PIL import Image
 
 CAPTION = 'Coverted by @stickerConv_Bot 😬\n[Downlaod Source Code](https://Github.com/localhoct) 😈' # caption of the files
 
-@bot.on_message(filters.command("start",'/'))
-def start_messgae(c, m):
-    m.reply_text(START_MESSAGE)
-
 @bot.on_message(filters.photo)
 def photo_convert(c, m):
     rand_id = random.randint(100,900) # generate random number between 100 to 900
