@@ -1,6 +1,6 @@
 class Strings:
     START_MESSAGE = ("Oi,\n"
-                     "Você pode me usar para criar pacotes de adesivos personalizados usando adesivos existentes ou arquivos PNG, converte tuas imagens aqui @Stickerdownloadbot para PNG e entre outros.\n"
+                     "Você pode me usar para criar pacotes de adesivos personalizados usando adesivos existentes ou arquivos PNG, converte tuas imagens aqui ou Vídeos @Stickerdownloadbot para PNG e entre outros.\n"
                      "\n"
                      "Comandos principais:\n"
                      "/create para criar um novo pacote\n"
